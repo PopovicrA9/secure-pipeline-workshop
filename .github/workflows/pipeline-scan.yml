@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
-      contents: read # only needed for private repos
+      contents: read # only needed for private reposddddd
       actions: read # only needed for private repos
     outputs:
       result: ${{ steps.scan-result.outputs.result }}
